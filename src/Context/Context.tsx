@@ -5,12 +5,12 @@ interface ProviderProps {
 }
 
 interface ContextType {
-   setEmail: (arg: any) => any;
-   Email: (arg: any) => any;
-   Regex: (arg:any) => any;
-   setRegex: (arg:any) => any;
+   setEmail: (arg: String) => String;
+   Email: (arg: String) => String;
+   Regex: (arg:boolean) => boolean;
+   setRegex: (arg:boolean) => boolean;
    regex: any;
-   takeEmail: (arg:any) => any;
+   takeEmail: (arg:any) => void;
 }
 
 

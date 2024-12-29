@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#colab">Collaborators</a>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+    <b>Uma tela de checkout de email e confirmação de tal</b>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+     <a href="https://github.com/Coe-Everton/Newsletter-sign-up-form-with-success-message">📱 Visit this Project</a>
+</p>
 
-## Expanding the ESLint configuration
+<h2 id="layout">🎨 Layout</h2>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p align="center">
+    <img src="./public/WhatsApp Image 2024-12-29 at 08.48.52.jpeg" alt="Image Example" width="800px">
+    <img src="./public/WhatsApp Image 2024-12-29 at 08.49.19.jpeg" alt="Image Example" width="400px">
+    <img src="./public/WhatsApp Image 2024-12-29 at 08.49.30.jpeg" alt="Image Example" width="400px">
+    <img src="./public/WhatsApp Image 2024-12-29 at 08.49.44.jpeg" alt="Image Example" width="800px">
+</p>
 
-- Configure the top-level `parserOptions` property like this:
+<h2 id="technologies">💻 Technologies</h2>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- React
+- Tailwindcss
+
+<h2 id="started">🚀 Getting started</h2>
+
+- Der o clone do projeto
+- Abra o projeto no terminal
+- No terminal digite `npm i`, `npm i react-dom` e `npm i -g tailwindcss`
+- Em seguida, ainda no terminal, digite `npm run dev`
+- Abra no seu navegador na porta indicada no terminal (Normalmente é `http://localhost:5173/`)
+
+<h3>Prerequisites</h3>
+
+- [NodeJS](https://nodejs.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/downloads)
+
+<h3>Cloning</h3>
+
+```bash
+git clone https://github.com/Coe-Everton/Newsletter-sign-up-form-with-success-message.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<h3>Starting</h3>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+cd Newsletter-sign-up-form-with-success-message
+npm run dev
 ```
+
+<h2 id="colab">🤝 Collaborators</h2>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/83991145?v=4" width="100px;" alt="Everton Caldeira Oliveira"/><br>
+        <sub>
+          <b>Everton Caldeira</b>
+        </sub>
+      </a>
+    </td>
+    </td>
+  </tr>
+</table>
