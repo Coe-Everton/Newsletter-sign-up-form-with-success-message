@@ -7,7 +7,7 @@ export default function Home(){
   const navigate = useNavigate();
 
   const changePath = (e:string) => {
-    if(Email){return navigate(e);}
+    if(Regex){return navigate(e);}
     alert("Enter an Email")
   }
 
