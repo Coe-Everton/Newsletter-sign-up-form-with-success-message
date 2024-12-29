@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Context } from "../Context/Context.tsx"
 
 export default function Home(){
-  const { Regex, takeEmail, Email} = useContext<any>(Context)
+  const { Regex, takeEmail} = useContext<any>(Context)
   const navigate = useNavigate();
 
   const changePath = (e:string) => {
