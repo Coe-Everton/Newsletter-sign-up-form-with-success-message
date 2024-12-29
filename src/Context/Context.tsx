@@ -1,7 +1,22 @@
-import { createContext, useState } from "react";
-export const Context = createContext();
+import { createContext, ReactNode, useState } from "react";
 
-export const ContextProvider =({children}) => {
+interface ProviderProps {
+   children: ReactNode;
+}
+
+interface ContextType {
+   setEmail: (arg: any) => any;
+   Email: (arg: any) => any;
+   Regex: (arg:any) => any;
+   setRegex: (arg:any) => any;
+   regex: any;
+   takeEmail: (arg:any) => any;
+}
+
+
+export const Context = createContext<ContextType | undefined>(undefined);
+
+export const ContextProvider =({children}: ProviderProps) => {
    const [Email, setEmail]:any = useState(``);
    const [Regex, setRegex]:any= useState();
    const regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
